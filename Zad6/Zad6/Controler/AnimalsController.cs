@@ -10,13 +10,8 @@ namespace YourNamespace.Controllers
     [ApiController]
     public class AnimalsController : ControllerBase
     {
-        private readonly string _connectionString;
-
-        public AnimalsController(string connectionString)
-        {
-            _connectionString = connectionString;
-        }
-
+        private readonly string _connectionString = "Server=db-mssql16.pjwstk.edu.pl;Database=MagazynDB;User Id=s27611;Password=mssql;";
+        
         [HttpGet]
         public IActionResult GetAnimals(string orderBy = "name")
         {

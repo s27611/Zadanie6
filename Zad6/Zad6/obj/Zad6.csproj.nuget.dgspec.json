@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michał\\Desktop\\zad6\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj": {}
+    "C:\\Users\\Michał\\Desktop\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michał\\Desktop\\zad6\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj": {
+    "C:\\Users\\Michał\\Desktop\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michał\\Desktop\\zad6\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj",
+        "projectUniqueName": "C:\\Users\\Michał\\Desktop\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj",
         "projectName": "Zad6",
-        "projectPath": "C:\\Users\\Michał\\Desktop\\zad6\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj",
+        "projectPath": "C:\\Users\\Michał\\Desktop\\Zadanie6\\Zad6\\Zad6\\Zad6.csproj",
         "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michał\\Desktop\\zad6\\Zadanie6\\Zad6\\Zad6\\obj\\",
+        "outputPath": "C:\\Users\\Michał\\Desktop\\Zadanie6\\Zad6\\Zad6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0-preview.3.24172.9, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
